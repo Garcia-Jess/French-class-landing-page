@@ -1,0 +1,128 @@
+import Image from "next/image";
+import { ImCheckmark } from "react-icons/im";
+export default function AulasOnline() {
+  return (
+    <section className="bg-gray-100 pt-3 mt-5">
+      <div className="mx-5 px-2 mt-10 pt-10 max-w-6xl mx-4 lg:mx-auto lg:px-4 mt-10">
+        <div className="relative flex flex-col items-center justify-center">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center text-gray-800">
+            Vantagens das Aulas Online
+          </h2>
+          <p className="mt-5 text-center text-gray-600 max-w-2xl">
+            Nossas aulas online são totalmente adaptadas ao seu nível e
+            objetivos, proporcionando uma experiência de aprendizado prática,
+            eficiente e interativa. Aprenda no conforto da sua casa, com
+            flexibilidade de horários.
+          </p>
+
+          {/* Imagem com posição absoluta */}
+          <div className="lg:relative lg:w-full">
+            {/* imagem de fundo */}
+            <div className="hidden lg:block ">
+              <Image
+                className="absolute top-0 left-1/2 transform -translate-x-1/2 mt-5"
+                src="/images/notebook2.png"
+                alt="Foto de notebook"
+                width={900}
+                height={887}
+              />
+            </div>
+
+            {/* Conteúdo sobre a imagem */}
+
+            <div className="relative z-10 text-center flex flex-col items-center h-full pt-20">
+              <div>
+                <h2 className="text-2xl font-bold lg:text-4xl text-gray-800">
+                  Por que Escolher Aulas Online
+                </h2>
+
+                {/* Lista centralizada com itens alinhados à esquerda */}
+                <ul className="mt-5 space-y-4 text-left max-w-lg text-gray-600 ">
+                  <li className="flex items-start">
+                    <ImCheckmark className="w-5 h-5 text-green-500 mr-3" />{" "}
+                    Conveniência e Conforto: Aprenda onde estiver, sem precisar
+                    se deslocar.
+                  </li>
+                  <li className="flex items-start">
+                    <ImCheckmark className="w-5 h-5 text-green-500 mr-3" />{" "}
+                    Aulas Gravadas: Opção de gravar e revisar a aula quando
+                    quiser.
+                  </li>
+                  <li className="flex items-start">
+                    <ImCheckmark className="w-5 h-5 text-green-500 mr-3" />{" "}
+                    Plataformas Simples: Usamos Zoom/Google Meet para uma
+                    experiência fácil e direta.
+                  </li>
+                  <li className="flex items-start">
+                    <ImCheckmark className="w-5 h-5 text-green-500 mr-3" />{" "}
+                    Interatividade: Ferramentas digitais e quizzes em tempo
+                    real.
+                  </li>
+                </ul>
+              </div>
+              <div className="mt-10 md:px-20">
+                <Image
+                  src="/images/garota_estudando_frances.png"
+                  alt="Foto garota estudando"
+                  width={100}
+                  height={50}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-wrap gap-10 md:gap-7 lg:gap-10 md:flex justify-center mt-10 lg:mt-20">
+          <Image
+            src="/images/icone_googleclassroom.png"
+            alt="Icone Google Classroom"
+            width={50}
+            height={50}
+          />
+          <Image
+            src="/images/icone_googledocs.png"
+            alt="Icone Google Docs"
+            width={50}
+            height={50}
+          />
+          <Image
+            src="/images/icone_googledrive.png"
+            alt="Icone Google Drive"
+            width={50}
+            height={50}
+          />
+          <Image
+            src="/images/icone_kahoot.png"
+            alt="Icone Kahoot"
+            width={50}
+            height={50}
+          />
+          <Image
+            src="/images/icone_tv5monde.png"
+            alt="Icone TV5Monde"
+            width={50}
+            height={50}
+          />
+          <Image
+            src="/images/icone_wifi.png"
+            alt="Icone WiFi"
+            width={50}
+            height={50}
+          />
+          <Image
+            src="/images/icone_googlecalendar.png"
+            alt="Icone Google Calendar"
+            width={50}
+            height={50}
+          />
+          <Image
+            src="/images/icone_googlemeet.png"
+            alt="Icone Google Meet"
+            width={50}
+            height={50}
+          />
+        </div>
+      </div>
+    </section>
+  );
+}
