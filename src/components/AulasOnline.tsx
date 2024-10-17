@@ -15,10 +15,9 @@ export default function AulasOnline() {
             flexibilidade de horários.
           </p>
 
-          {/* Imagem com posição absoluta */}
-          <div className="lg:relative lg:w-full">
-            {/* imagem de fundo */}
-            <div className="hidden lg:block ">
+          {/* Imagem de fundo com posição absoluta */}
+          <div className="md:relative md:w-full">
+            <div className="hidden md:block">
               <Image
                 className="absolute top-0 left-1/2 transform -translate-x-1/2 mt-5"
                 src="/images/notebook2.png"
@@ -29,15 +28,14 @@ export default function AulasOnline() {
             </div>
 
             {/* Conteúdo sobre a imagem */}
-
-            <div className="relative z-10 text-center flex flex-col items-center h-full pt-20">
+            <div className="relative z-10 text-center flex flex-col items-center h-full pt-20 lg:pt-20">
               <div>
                 <h2 className="text-2xl font-bold lg:text-4xl text-gray-800">
                   Por que Escolher Aulas Online
                 </h2>
 
                 {/* Lista centralizada com itens alinhados à esquerda */}
-                <ul className="mt-5 space-y-4 text-left max-w-lg text-gray-600 ">
+                <ul className="mt-5 space-y-4 text-left max-w-lg text-gray-600">
                   <li className="flex items-start">
                     <ImCheckmark className="w-5 h-5 text-green-500 mr-3" />{" "}
                     Conveniência e Conforto: Aprenda onde estiver, sem precisar
@@ -60,19 +58,12 @@ export default function AulasOnline() {
                   </li>
                 </ul>
               </div>
-              <div className="mt-10 md:px-20">
-                <Image
-                  src="/images/garota_estudando_frances.png"
-                  alt="Foto garota estudando"
-                  width={100}
-                  height={50}
-                />
-              </div>
             </div>
           </div>
         </div>
 
-        <div className="flex flex-wrap gap-10 md:gap-7 lg:gap-10 md:flex justify-center mt-10 lg:mt-20">
+        {/* Ícones abaixo da imagem e da lista */}
+        <div className="relative flex flex-wrap gap-10 md:gap-7 lg:gap-10 md:flex justify-center mt-20 pb-10 lg:mt-40">
           <Image
             src="/images/icone_googleclassroom.png"
             alt="Icone Google Classroom"
