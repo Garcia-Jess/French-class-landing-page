@@ -37,9 +37,14 @@ export default function CardPreco3() {
             </ul>
             {/* <!-- Botão --> */}
             <div className="mt-8 text-center">
-              <button className="bg-blue-900 text-white py-3 px-10 rounded-3xl font-semibold transition-colors duration-300 hover:bg-blue-800">
+              <a
+                href="https://wa.me/5591982588355" //
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-blue-900 text-white py-3 px-10 rounded-3xl font-semibold transition-colors duration-300 hover:bg-blue-800"
+              >
                 Quero
-              </button>
+              </a>
             </div>
           </div>
         </div>

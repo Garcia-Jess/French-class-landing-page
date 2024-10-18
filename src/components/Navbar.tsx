@@ -1,16 +1,30 @@
 import { useState } from "react";
+import Link from "next/link";
+import Popup from "./Popup";
 
 import Image from "next/image";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [show, setShow] = useState(false);
 
   //Toggle the mobile menu
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  //Show Popup
+  const openPopup = () => {
+    setShow(true);
+  };
+
+  //Hide popup
+  const closePopup = () => {
+    setShow(false);
+  };
+
   return (
     <>
-      <nav className="">
+      <nav id="home">
         <div className="max-w-6xl mx-auto px-4">
           <div className="flex justify-between">
             <div className="flex space-x-4">
@@ -34,12 +48,12 @@ export default function Navbar() {
 
             {/* <!-- nav right --> */}
             <div className="hidden md:flex items-center space-x-1">
-              <a
-                href=""
+              <button
+                onClick={openPopup}
                 className="py-5 px-3 font-semibold hover:text-blue-800"
               >
                 Sobre
-              </a>
+              </button>
               <a
                 href="#nivel"
                 className="py-5 px-3 font-bold hover:text-blue-800"
@@ -58,9 +72,11 @@ export default function Navbar() {
               >
                 Perguntas
               </a>
-              <a href="" className="py-5 px-3 font-bold hover:text-blue-800">
-                Blog
-              </a>
+              <Link href="/embreve">
+                <button className="py-5 px-3 font-bold hover:text-blue-800">
+                  Blog
+                </button>
+              </Link>
             </div>
 
             {/* <!-- MOBILE BUTTON --> */}
@@ -112,6 +128,7 @@ export default function Navbar() {
             Blog
           </a>
         </div>
+        <Popup show={show} closePopup={closePopup} />
       </nav>
     </>
   );

@@ -10,7 +10,9 @@ export default function Contato() {
           Aprenda no Seu Ritmo e Onde Estiver!
         </p>
         <a
-          href="#"
+          href="https://wa.me/5591982588355" //
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-red-600 py-5 px-10 rounded-4xl text-2xl font-semibold hover:bg-blue-700"
         >
           Começar
