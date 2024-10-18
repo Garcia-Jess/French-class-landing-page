@@ -1,5 +1,13 @@
+import { useState } from "react";
+
 import Image from "next/image";
 export default function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  //Toggle the mobile menu
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <>
       <nav className="">
@@ -32,13 +40,22 @@ export default function Navbar() {
               >
                 Sobre
               </a>
-              <a href="" className="py-5 px-3 font-bold hover:text-blue-800">
+              <a
+                href="#nivel"
+                className="py-5 px-3 font-bold hover:text-blue-800"
+              >
                 Nívelamento
               </a>
-              <a href="" className="py-5 px-3 font-bold hover:text-blue-800">
+              <a
+                href="#precos"
+                className="py-5 px-3 font-bold hover:text-blue-800"
+              >
                 Preços
               </a>
-              <a href="" className="py-5 px-3 font-bold hover:text-blue-800">
+              <a
+                href="#perguntas"
+                className="py-5 px-3 font-bold hover:text-blue-800"
+              >
                 Perguntas
               </a>
               <a href="" className="py-5 px-3 font-bold hover:text-blue-800">
@@ -48,7 +65,7 @@ export default function Navbar() {
 
             {/* <!-- MOBILE BUTTON --> */}
             <div className="md:hidden flex items-center">
-              <button className="mobile-menu-button">
+              <button onClick={toggleMenu} className="mobile-menu-button">
                 <svg
                   className="w-6 h-6"
                   xmlns="http://www.w3.org/2000/svg"
@@ -69,20 +86,29 @@ export default function Navbar() {
         </div>
 
         {/* <!-- MOBILE MENU --> */}
-        <div className="mobile-menu hidden md:hidden">
-          <a href="#" className="block py-2 px-4 text-sm hover:bg-gray-200">
+        <div className={`${isOpen ? "block" : "hidden"} md:hidden bg-white`}>
+          <a href="#" className="block py-2 px-4 text-sm hover:bg-blue-200">
             Sobre
           </a>
-          <a href="#" className="block py-2 px-4 text-sm hover:bg-gray-200">
+          <a
+            href="#nivel"
+            className="block py-2 px-4 text-sm hover:bg-blue-200"
+          >
             Nivelamento
           </a>
-          <a href="#" className="block py-2 px-4 text-sm hover:bg-gray-200">
+          <a
+            href="#precos"
+            className="block py-2 px-4 text-sm hover:bg-blue-200"
+          >
             Preços
           </a>
-          <a href="#" className="block py-2 px-4 text-sm hover:bg-gray-200">
+          <a
+            href="#perguntas"
+            className="block py-2 px-4 text-sm hover:bg-blue-200"
+          >
             Perguntas
           </a>
-          <a href="#" className="block py-2 px-4 text-sm hover:bg-gray-200">
+          <a href="#" className="block py-2 px-4 text-sm hover:bg-blue-200">
             Blog
           </a>
         </div>

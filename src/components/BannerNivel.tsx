@@ -3,7 +3,10 @@ import { FaArrowAltCircleRight } from "react-icons/fa";
 import Image from "next/image";
 export default function BannerNivel() {
   return (
-    <div className="bg-blue-200 px-10 lg:px-20 mt-10 pb-20 md:flex lg:gap-5">
+    <div
+      id="nivel"
+      className="bg-blue-200 px-10 lg:px-20 mt-10 pb-20 md:flex lg:gap-5"
+    >
       <div className="lg:ml-20">
         <div className="text-2xl md:text-4xl lg:text-6xl font-bold text-start mt-10 pt-20 text-gray-800">
           Ainda não sabe seu nível de francês/inglês? Faça o teste agora e

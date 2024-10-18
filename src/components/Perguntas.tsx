@@ -1,6 +1,9 @@
 export default function Perguntas() {
   return (
-    <div className="px-10 lg:px-20 mt-5 lg:flex lg:flex-col lg:justify-center lg:items-center">
+    <div
+      id="perguntas"
+      className="px-10 lg:px-20 mt-5 lg:flex lg:flex-col lg:justify-center lg:items-center"
+    >
       <div className="lg:flex lg:flex-col lg:items-center">
         <h2 className="text-center text-2xl md:text-4xl lg:text-6xl font-bold mt-10 pt-10 text-gray-800">
           Perguntas Frequentes
@@ -21,9 +24,11 @@ export default function Perguntas() {
                 Como funcionam as aulas online?
               </summary>
               <p className="mt-2 text-gray-600">
-                Tailwind CSS é uma framework CSS utilitária que permite criar
-                layouts rapidamente usando classes pré-definidas diretamente no
-                HTML.
+                As aulas online são personalizadas de acordo com o seu nível e
+                necessidades. Você terá acesso a um professor qualificado que
+                conduzirá as aulas ao vivo, usando ferramentas interativas para
+                garantir um aprendizado eficiente e prático. Além disso, poderá
+                estudar no conforto da sua casa, com horários flexíveis.
               </p>
             </details>
           </div>
@@ -35,9 +40,10 @@ export default function Perguntas() {
                 Preciso ter conhecimento prévio?
               </summary>
               <p className="mt-2 text-gray-600">
-                Você pode aprender Tailwind CSS acessando a documentação
-                oficial, explorando tutoriais online, e praticando com projetos
-                reais.
+                Não é necessário ter conhecimento prévio. Oferecemos aulas para
+                todos os níveis, desde iniciantes até avançados. O conteúdo será
+                adaptado ao seu nível atual, garantindo que você possa progredir
+                de forma consistente e eficaz.
               </p>
             </details>
           </div>
@@ -49,8 +55,9 @@ export default function Perguntas() {
                 Qual a duração das aulas?
               </summary>
               <p className="mt-2 text-gray-600">
-                Sim, Tailwind CSS pode ser facilmente integrado com React ou
-                qualquer outra biblioteca ou framework JavaScript.
+                As aulas têm duração de 60 minutos. No entanto, a quantidade de
+                aulas por semana e a intensidade podem ser adaptadas de acordo
+                com a sua disponibilidade e objetivos de aprendizado.
               </p>
             </details>
           </div>
@@ -62,8 +69,10 @@ export default function Perguntas() {
                 O que preciso para começar?
               </summary>
               <p className="mt-2 text-gray-600">
-                Sim, Tailwind CSS pode ser facilmente integrado com React ou
-                qualquer outra biblioteca ou framework JavaScript.
+                Para começar, você precisará de um dispositivo com acesso à
+                internet (computador, tablet ou smartphone), uma conexão estável
+                e um fone de ouvido com microfone para garantir uma boa
+                comunicação durante as aulas.
               </p>
             </details>
           </div>
@@ -75,8 +84,13 @@ export default function Perguntas() {
                 Oferece certificado de conclusão?
               </summary>
               <p className="mt-2 text-gray-600">
-                Sim, Tailwind CSS pode ser facilmente integrado com React ou
-                qualquer outra biblioteca ou framework JavaScript.
+                Sim, oferecemos um certificado de conclusão ao final do curso,
+                que comprova a carga horária e o nível de conhecimento
+                adquirido. No entanto, é importante destacar que o certificado
+                não é oficial, ou seja, ele não tem validade legal reconhecida
+                por instituições de ensino ou órgãos governamentais. Ainda
+                assim, pode ser utilizado como uma referência de seu progresso e
+                dedicação no aprendizado do francês.
               </p>
             </details>
           </div>

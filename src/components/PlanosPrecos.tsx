@@ -4,7 +4,10 @@ import CardPreco3 from "@/components/CardPreco3";
 
 export default function PlanoPreco() {
   return (
-    <div className="px-10 lg:px-20 mt-5 lg:flex lg:flex-col lg:justify-center">
+    <div
+      id="precos"
+      className="px-10 lg:px-20 mt-5 lg:flex lg:flex-col lg:justify-center"
+    >
       <div className="lg:flex lg:flex-col lg:items-center">
         <h2 className="text-center text-2xl md:text-4xl lg:text-6xl font-bold mt-10 pt-10 text-gray-800">
           Planos e Preços

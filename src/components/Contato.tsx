@@ -6,7 +6,8 @@ export default function Contato() {
           Vamos Aprender um Novo Idioma?
         </h2>
         <p className="text-lg mb-10 lg:text-2xl">
-          Join thousands of others and start using our product today.
+          Domine o Francês e o Inglês com Aulas Interativas e Flexíveis –
+          Aprenda no Seu Ritmo e Onde Estiver!
         </p>
         <a
           href="#"
