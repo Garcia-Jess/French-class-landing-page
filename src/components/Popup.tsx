@@ -26,7 +26,7 @@ export default function Popup({ show, closePopup }: PopupProps) {
         <div className="flex justify-center">
           <Image
             src="/images/foto_perfil_profjess.png"
-            alt="Icone Google Meet"
+            alt="Foto perfil Jessica Garcia"
             width={100}
             height={100}
           />

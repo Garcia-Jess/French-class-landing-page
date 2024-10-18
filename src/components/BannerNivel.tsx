@@ -27,7 +27,7 @@ export default function BannerNivel() {
         <Image
           className="mt-10 md:pt-20"
           src="/images/estudante_idiomas.png"
-          alt="Foto de notebook"
+          alt="Ilustração estudante de idiomas"
           width={900}
           height={887}
         />

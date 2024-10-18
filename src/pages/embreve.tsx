@@ -11,7 +11,7 @@ export default function EmBreve() {
           <div className="flex justify-center">
             <Image
               src="/images/logo_nome.png"
-              alt="Aulas Online de Francês e Inglês"
+              alt="Logo profjess"
               width={100}
               height={100}
               className="bg-blue-700 rounded-full p-3"
