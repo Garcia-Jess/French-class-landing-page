@@ -1,7 +1,12 @@
 import Image from "next/image";
 import { IoCloseCircle } from "react-icons/io5";
 
-export default function Popup({ show, closePopup }) {
+interface PopupProps {
+  show: boolean;
+  closePopup: () => void;
+}
+
+export default function Popup({ show, closePopup }: PopupProps) {
   if (!show) return null;
   return (
     <div
