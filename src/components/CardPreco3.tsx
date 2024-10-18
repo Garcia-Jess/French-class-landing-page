@@ -13,14 +13,14 @@ export default function CardPreco3() {
           {/* !-- Preço --> */}
           <div className="p-8">
             <div className="flex justify-center items-baseline">
-              <h3 className="text-5xl font-bold text-gray-900">R$250</h3>
+              <h3 className="text-5xl font-bold text-gray-900">R$650</h3>
               <span className="text-lg text-gray-500 ml-2">/mês</span>
             </div>
             {/* <!-- Benefícios --> */}
             <ul className="mt-5 space-y-4 text-left max-w-lg text-gray-600">
               <li className="flex items-start">
                 <IoIosCheckmarkCircle className="w-5 h-5 text-green-500 mr-3" />{" "}
-                Aula 1 vez por semana
+                Aula 3 vezes por semana
               </li>
               <li className="flex items-start">
                 <IoIosCheckmarkCircle className="w-5 h-5 text-green-500 mr-3" />{" "}

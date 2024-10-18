@@ -8,7 +8,7 @@ export default function AulasOnline() {
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center text-gray-800">
             Vantagens das Aulas Online
           </h2>
-          <p className="mt-5 text-center text-gray-600 max-w-2xl">
+          <p className="mt-5 text-center text-gray-600 max-w-2xl lg:text-2xl">
             Nossas aulas online são totalmente adaptadas ao seu nível e
             objetivos, proporcionando uma experiência de aprendizado prática,
             eficiente e interativa. Aprenda no conforto da sua casa, com
@@ -35,7 +35,7 @@ export default function AulasOnline() {
                 </h2>
 
                 {/* Lista centralizada com itens alinhados à esquerda */}
-                <ul className="mt-5 space-y-4 text-left max-w-lg text-gray-600">
+                <ul className="mt-5 space-y-4 text-left max-w-lg text-gray-600 lg:text-xl">
                   <li className="flex items-start">
                     <ImCheckmark className="w-5 h-5 text-green-500 mr-3" />{" "}
                     Conveniência e Conforto: Aprenda onde estiver, sem precisar

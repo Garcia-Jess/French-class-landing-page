@@ -9,7 +9,7 @@ export default function PlanoPreco() {
         <h2 className="text-center text-2xl md:text-4xl lg:text-6xl font-bold mt-10 pt-10 text-gray-800">
           Planos e Preços
         </h2>
-        <p className="text-center mt-2 pt-3 text-gray-800 md:text-xl lg:text-2xl md:max-w-2xl">
+        <p className="text-center mt-2 pt-3 text-gray-600 md:text-xl lg:text-2xl md:max-w-2xl">
           Nossas aulas online são totalmente adaptadas ao seu nível e objetivos,
           proporcionando uma experiência de aprendizado prática, eficiente e
           interativa. Aprenda no conforto da sua casa, com flexibilidade de

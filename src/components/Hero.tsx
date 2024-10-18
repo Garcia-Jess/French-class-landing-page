@@ -10,7 +10,7 @@ export default function Hero() {
             <span className="text-blue-700"> Inglês </span>
             com Aulas Personalizadas
           </h1>
-          <p className="text-lg text-gray-600 mb-8">
+          <p className="text-lg text-gray-600 mb-8 lg:text-2xl">
             Aulas online focadas em suas necessidades, do básico ao avançado,
             com flexibilidade de horários e material exclusivo.
           </p>
