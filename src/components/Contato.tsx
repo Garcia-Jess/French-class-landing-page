@@ -9,14 +9,16 @@ export default function Contato() {
           Domine o Francês e o Inglês com Aulas Interativas e Flexíveis –
           Aprenda no Seu Ritmo e Onde Estiver!
         </p>
-        <a
-          href="https://wa.me/5591982588355" //
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-red-600 py-5 px-10 rounded-4xl text-2xl font-semibold hover:bg-blue-700"
-        >
-          Começar
-        </a>
+        <div className="pt-10">
+          <a
+            href="https://wa.me/5591982588355" //
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-red-600 py-5 px-10 rounded-full text-2xl font-semibold hover:bg-blue-700"
+          >
+            Começar
+          </a>
+        </div>
       </div>
     </section>
   );

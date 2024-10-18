@@ -19,3 +19,10 @@ body {
   background: #ffffff;
   font-family: Roboto;
 }
+
+.glass-blue {
+  background: rgba(0, 0, 255, 0.1); /* Fundo azul com transparência */
+  backdrop-filter: blur(15px); /* Desfoque do fundo mais intenso */
+  border-radius: 15px; /* Bordas arredondadas */
+  border: 1px solid rgba(0, 0, 255, 0.2); /* Borda azul leve */
+}

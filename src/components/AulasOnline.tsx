@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ImCheckmark } from "react-icons/im";
+import { FaCheckCircle } from "react-icons/fa";
 export default function AulasOnline() {
   return (
     <section className="bg-gray-100 pt-3 mt-5">
@@ -16,11 +16,11 @@ export default function AulasOnline() {
           </p>
 
           {/* Imagem de fundo com posição absoluta */}
-          <div className="md:relative md:w-full">
+          <div className="md:relative md:w-full md:mb-20 lg:mb-10">
             <div className="hidden md:block">
               <Image
                 className="absolute top-0 left-1/2 transform -translate-x-1/2 mt-5"
-                src="/images/notebook2.png"
+                src="/images/notebook6.png"
                 alt="Foto de notebook"
                 width={900}
                 height={887}
@@ -35,24 +35,24 @@ export default function AulasOnline() {
                 </h2>
 
                 {/* Lista centralizada com itens alinhados à esquerda */}
-                <ul className="mt-5 space-y-4 text-left max-w-lg text-gray-600 lg:text-xl">
+                <ul className="mt-5 space-y-4 text-left max-w-lg text-gray-900 lg:text-xl">
                   <li className="flex items-start">
-                    <ImCheckmark className="w-5 h-5 text-green-500 mr-3" />{" "}
+                    <FaCheckCircle className="w-7 h-7 text-blue-700 mr-3" />{" "}
                     Conveniência e Conforto: Aprenda onde estiver, sem precisar
                     se deslocar.
                   </li>
                   <li className="flex items-start">
-                    <ImCheckmark className="w-5 h-5 text-green-500 mr-3" />{" "}
+                    <FaCheckCircle className="w-6 h-6 text-blue-700 mr-3" />{" "}
                     Aulas Gravadas: Opção de gravar e revisar a aula quando
                     quiser.
                   </li>
                   <li className="flex items-start">
-                    <ImCheckmark className="w-5 h-5 text-green-500 mr-3" />{" "}
+                    <FaCheckCircle className="w-8 h-8 text-blue-700 mr-3" />{" "}
                     Plataformas Simples: Usamos Zoom/Google Meet para uma
                     experiência fácil e direta.
                   </li>
                   <li className="flex items-start">
-                    <ImCheckmark className="w-5 h-5 text-green-500 mr-3" />{" "}
+                    <FaCheckCircle className="w-6 h-6 text-blue-700 mr-3" />{" "}
                     Interatividade: Ferramentas digitais e quizzes em tempo
                     real.
                   </li>

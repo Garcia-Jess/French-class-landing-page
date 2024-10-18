@@ -12,9 +12,13 @@ export default function BannerNivel() {
           Ainda não sabe seu nível de francês/inglês? Faça o teste agora e
           descubra!
         </div>
-        <div className="flex items-center mt-5 text-blue-700 font-bold lg:text-2xl">
-          <a className="flex items-center gap-3" href="">
-            Fazer teste
+        <div className="flex flex-col justify-start mt-5 text-blue-700 font-bold lg:text-2xl">
+          <a className="flex place-content-start gap-3" href="">
+            Fazer teste de <span className="text-red-500">francês</span>
+            <FaArrowAltCircleRight />
+          </a>
+          <a className="flex items-center gap-3 mt-3" href="">
+            Fazer teste de inglês
             <FaArrowAltCircleRight />
           </a>
         </div>

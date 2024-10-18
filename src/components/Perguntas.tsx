@@ -9,10 +9,10 @@ export default function Perguntas() {
           Perguntas Frequentes
         </h2>
         <p className="text-center mt-2 pt-3 text-gray-600 md:text-xl lg:text-2xl md:max-w-2xl">
-          Nossas aulas online são totalmente adaptadas ao seu nível e objetivos,
-          proporcionando uma experiência de aprendizado prática, eficiente e
-          interativa. Aprenda no conforto da sua casa, com flexibilidade de
-          horários.
+          Tem dúvidas sobre nossas aulas ou como funciona o processo de
+          aprendizado online? Reunimos aqui as perguntas mais comuns para
+          facilitar seu entendimento. Caso ainda tenha dúvidas, estamos à
+          disposição para ajudar!
         </p>
       </div>
       <section className="w-full max-w-4xl mx-auto p-4 md:mt-10">

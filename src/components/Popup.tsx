@@ -5,10 +5,10 @@ export default function Popup({ show, closePopup }) {
   if (!show) return null;
   return (
     <div
-      className="fixed inset-0 bg-gray-800 bg-opacity-50 flex items-center justify-center"
+      className="fixed inset-0 bg-gray-800 bg-opacity-90 flex items-center justify-center"
       id="aboutPopup"
     >
-      <div className="bg-white rounded-lg p-8 shadow-lg w-full max-w-sm relative">
+      <div className="glass-blue rounded-lg p-8 shadow-lg w-full max-w-sm relative">
         {/*<!-- Botão de fechar -->*/}
         <button
           onClick={closePopup}
@@ -28,8 +28,10 @@ export default function Popup({ show, closePopup }) {
         </div>
 
         {/* <!-- Texto Descritivo --> */}
-        <h2 className="text-center text-2xl font-bold mb-2">Jessica Garcia</h2>
-        <p className="text-center text-gray-600 mb-4">
+        <h2 className="text-center text-2xl text-red-400 font-bold mb-2 mt-5">
+          Jessica Garcia
+        </h2>
+        <p className="text-center text-white mb-4">
           Sou professora de francês e inglês com 8 anos de experiência e
           desenvolvedora web apaixonada por design, tecnologia e linguagens.
         </p>

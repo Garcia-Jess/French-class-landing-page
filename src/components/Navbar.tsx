@@ -35,10 +35,10 @@ export default function Navbar() {
                   className="flex items-center py-5 px-2 text-gray-900 font-bold hover:text-gray-900 gap-3"
                 >
                   <Image
-                    src="/images/logo_profjess.png"
+                    src="/images/logo_sem_nome.png"
                     alt="Picture of the author"
-                    width={43}
-                    height={43}
+                    width={60}
+                    height={60}
                   />
                   <span className="font-bold">ProfJess</span>
                 </a>
@@ -103,9 +103,12 @@ export default function Navbar() {
 
         {/* <!-- MOBILE MENU --> */}
         <div className={`${isOpen ? "block" : "hidden"} md:hidden bg-white`}>
-          <a href="#" className="block py-2 px-4 text-sm hover:bg-blue-200">
+          <button
+            onClick={openPopup}
+            className="block py-2 px-4 text-sm hover:bg-blue-200"
+          >
             Sobre
-          </a>
+          </button>
           <a
             href="#nivel"
             className="block py-2 px-4 text-sm hover:bg-blue-200"
@@ -124,9 +127,11 @@ export default function Navbar() {
           >
             Perguntas
           </a>
-          <a href="#" className="block py-2 px-4 text-sm hover:bg-blue-200">
-            Blog
-          </a>
+          <Link href="/embreve">
+            <button className="block py-2 px-4 text-sm hover:bg-blue-200">
+              Blog
+            </button>
+          </Link>
         </div>
         <Popup show={show} closePopup={closePopup} />
       </nav>

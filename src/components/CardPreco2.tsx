@@ -8,7 +8,7 @@ export default function CardPreco2() {
           {/* <!-- Plano Premium --> */}
           <div className="text-gray-200 text-center py-6">
             <h2 className="text-3xl font-bold">Semi-Intensivo</h2>
-            <p className="text-sm mt-2">For advanced users</p>
+            <p className="text-sm mt-2">Mais foco, com flexibilidade</p>
           </div>
           {/* !-- Preço --> */}
           <div className="p-8">

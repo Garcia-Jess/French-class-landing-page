@@ -13,10 +13,8 @@ export default function PlanoPreco() {
           Planos e Preços
         </h2>
         <p className="text-center mt-2 pt-3 text-gray-600 md:text-xl lg:text-2xl md:max-w-2xl">
-          Nossas aulas online são totalmente adaptadas ao seu nível e objetivos,
-          proporcionando uma experiência de aprendizado prática, eficiente e
-          interativa. Aprenda no conforto da sua casa, com flexibilidade de
-          horários.
+          Cada plano é pensado para garantir o máximo aproveitamento, com foco
+          em resultados práticos e uma metodologia interativa.
         </p>
       </div>
       <div className="lg:flex lg:justify-center mt-10 lg:gap-5">
