@@ -42,7 +42,7 @@ export default function Home() {
           content="Ofereço aulas particulares de Francês e Inglês online para todos os níveis. Aulas personalizadas, flexíveis e com foco nos seus objetivos."
         />
         <meta property="og:image" content="/images/jess.png" />
-        <meta property="og:url" content="https://www.seusite.com" />
+        <meta property="og:url" content="https://www.profjess.com.br" />
 
         {/* <!-- Meta tags Twitter --> */}
         <meta name="twitter:card" content="summary_large_image" />
