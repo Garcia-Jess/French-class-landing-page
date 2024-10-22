@@ -1,6 +1,6 @@
 import { FaArrowAltCircleRight } from "react-icons/fa";
-
 import Image from "next/image";
+
 export default function BannerNivel() {
   return (
     <div
@@ -13,11 +13,21 @@ export default function BannerNivel() {
           descubra!
         </div>
         <div className="flex flex-col justify-start mt-5 text-blue-700 font-bold lg:text-2xl">
-          <a className="flex place-content-start gap-3" href="">
+          <a
+            className="flex place-content-start gap-3"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfAPSHSSr26r06dw851vPQuwZlJyBAG6LLaroNVU5AWs-9itQ/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Fazer teste de <span className="text-red-500">francês</span>
             <FaArrowAltCircleRight />
           </a>
-          <a className="flex items-center gap-3 mt-3" href="">
+          <a
+            className="flex items-center gap-3 mt-3"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeMQhSQR8cCNoKjQ95UZd1jtZ-R_gjGhk2IB160aJ-5koJPag/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Fazer teste de inglês
             <FaArrowAltCircleRight />
           </a>
